@@ -2,12 +2,12 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115.13+-green.svg)](https://fastapi.tiangolo.com/)
-[![PaddleOCR](https://img.shields.io/badge/PaddleOCR-3.0-orange.svg)](https://github.com/PaddlePaddle/PaddleOCR)
+[![PaddleOCR](https://img.shields.io/badge/PaddleOCR-3.1-orange.svg)](https://github.com/PaddlePaddle/PaddleOCR)
 [![License](https://img.shields.io/badge/License-Apache%202.0-red.svg)](LICENSE)
 
 ## 📖 项目简介
 
-FastOCR 是一个基于 FastAPI 框架和 PaddleOCR 3.0 引擎构建的高性能光学字符识别（OCR）服务。该项目利用百度飞桨团队开源的 PaddleOCR 3.0 技术，提供快速、准确、易用的 OCR 解决方案，支持多种图片格式的文字识别，并提供 RESTful API 接口。
+FastOCR 是一个基于 FastAPI 框架和 PaddleOCR 3.1 引擎构建的高性能光学字符识别（OCR）服务。该项目利用百度飞桨团队开源的 PaddleOCR 3.1 技术，提供快速、准确、易用的 OCR 解决方案，支持多种图片格式的文字识别，并提供 RESTful API 接口。
 
 ## ✨ 主要特性
 
@@ -180,12 +180,12 @@ source venv/bin/activate  # Linux/Mac
 # 或
 venv\Scripts\activate  # Windows
 
-# 1. 安装 PaddlePaddle 3.0.0
+# 1. 安装 PaddlePaddle 3.1.0
 # CPU 端安装
-python -m pip install paddlepaddle==3.0.0 -i https://www.paddlepaddle.org.cn/packages/stable/cpu/
+python -m pip install paddlepaddle==3.1.0 -i https://www.paddlepaddle.org.cn/packages/stable/cpu/
 
 # GPU 端安装 (Linux 平台，CUDA 11.8 示例)
-# python -m pip install paddlepaddle-gpu==3.0.0 -i https://www.paddlepaddle.org.cn/packages/stable/cu118/
+# python -m pip install paddlepaddle-gpu==3.1.0 -i https://www.paddlepaddle.org.cn/packages/stable/cu118/
 
 # 2. 安装 PaddleOCR
 pip install paddleocr
@@ -368,8 +368,8 @@ storage:
 # 安装开发依赖
 pip install -r requirements-dev.txt
 
-# 安装 PaddlePaddle 3.0.0
-python -m pip install paddlepaddle==3.0.0 -i https://www.paddlepaddle.org.cn/packages/stable/cpu/
+# 安装 PaddlePaddle 3.1.0
+python -m pip install paddlepaddle==3.1.0 -i https://www.paddlepaddle.org.cn/packages/stable/cpu/
 
 # 安装 PaddleOCR
 pip install paddleocr
